@@ -1,0 +1,9 @@
+.navbar{
+    display: flex;
+    gap: 1rem;
+    padding: 5px;
+    background: linear-gradient(to right, rgb(139, 4, 139), rgb(226, 5, 226));
+    color: white;
+
+    align-items: center;
+}

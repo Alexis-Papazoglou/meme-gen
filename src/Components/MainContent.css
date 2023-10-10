@@ -1,0 +1,78 @@
+.form-btn{
+    background: linear-gradient(to right, rgb(139, 4, 139), rgb(226, 5, 226));
+    color: white;
+    font-size: 20px;
+    width: 445px;
+    border-radius: 5px;
+    border: 0px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.form-btn:hover{
+
+    background: linear-gradient(to right, rgb(93, 3, 93), rgb(177, 5, 177));
+
+}
+
+.main-section{
+    padding: 20px;
+    text-align: center;
+}
+
+.inputs > input{
+    width: 190px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.meme-img{
+    margin: 10px;
+    width: 500px;
+}
+
+.meme {
+    position: relative;
+}
+
+.meme--text {
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 15px 0;
+    padding: 0 5px;
+    font-family: impact, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+}
+
+.bottom {
+    bottom: 0;
+}
+
+.top {
+    top: 0;
+}
